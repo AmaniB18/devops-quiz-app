@@ -1,0 +1,67 @@
+[
+    {
+        "id": "Q1",
+        "topic": "DevOps Culture",
+        "question": "What is the primary goal of DevOps?",
+        "options": [
+            "Faster delivery",
+            "Improved communication",
+            "Cost-cutting",
+            "Improved security"
+        ],
+        "answerIndex": 0,
+        "explanation": "DevOps aims to deliver software faster and more reliably."
+    },
+    {
+        "id": "Q2",
+        "topic": "Continuous Integration",
+        "question": "Which of the following is a key practice in Continuous Integration?",
+        "options": [
+            "Deploying code directly to production",
+            "Frequent integration of code into a shared repository",
+            "Avoiding automated tests",
+            "Deploying every commit to production"
+        ],
+        "answerIndex": 1,
+        "explanation": "Continuous Integration focuses on frequently integrating code changes into a shared repository."
+    },
+    {
+        "id": "Q3",
+        "topic": "Version Control Systems",
+        "question": "What is the purpose of using a Version Control System (VCS)?",
+        "options": [
+            "To automate testing processes",
+            "To track and manage code changes",
+            "To manage software deployments",
+            "To scale applications automatically"
+        ],
+        "answerIndex": 1,
+        "explanation": "A Version Control System helps track and manage changes to the codebase over time."
+    },
+    {
+        "id": "Q4",
+        "topic": "Continuous Delivery",
+        "question": "Which of these best describes Continuous Delivery (CD)?",
+        "options": [
+            "Automating manual testing",
+            "Automating code integration and deployment",
+            "Automatically deploying to production every time",
+            "Testing every part of the application before deployment"
+        ],
+        "answerIndex": 1,
+        "explanation": "Continuous Delivery ensures that code changes are automatically integrated and deployed to testing environments."
+    },
+    {
+        "id": "Q5",
+        "topic": "Infrastructure as Code",
+        "question": "Which tool is commonly used for Infrastructure as Code (IaC)?",
+        "options": [
+            "Terraform",
+            "Jenkins",
+            "Docker",
+            "Ansible"
+        ],
+        "answerIndex": 0,
+        "explanation": "Terraform is widely used for managing infrastructure as code."
+    }
+]

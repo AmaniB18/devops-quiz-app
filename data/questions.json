@@ -14,54 +14,249 @@
     },
     {
         "id": "Q2",
-        "topic": "Continuous Integration",
-        "question": "Which of the following is a key practice in Continuous Integration?",
+        "topic": "DevOps Culture",
+        "question": "Which of the following is a core principle of DevOps culture?",
         "options": [
-            "Deploying code directly to production",
-            "Frequent integration of code into a shared repository",
-            "Avoiding automated tests",
-            "Deploying every commit to production"
+            "Continuous integration",
+            "Shared responsibility",
+            "Automated testing",
+            "Microservices"
         ],
         "answerIndex": 1,
-        "explanation": "Continuous Integration focuses on frequently integrating code changes into a shared repository."
+        "explanation": "DevOps promotes shared responsibility between development and operations."
     },
     {
         "id": "Q3",
         "topic": "Version Control Systems",
-        "question": "What is the purpose of using a Version Control System (VCS)?",
+        "question": "What is the purpose of a version control system (VCS)?",
         "options": [
-            "To automate testing processes",
-            "To track and manage code changes",
-            "To manage software deployments",
-            "To scale applications automatically"
+            "To track and manage changes in code",
+            "To deploy code automatically",
+            "To perform unit testing",
+            "To compile code into executables"
         ],
-        "answerIndex": 1,
-        "explanation": "A Version Control System helps track and manage changes to the codebase over time."
+        "answerIndex": 0,
+        "explanation": "A VCS helps to manage and track changes to the codebase over time."
     },
     {
         "id": "Q4",
-        "topic": "Continuous Delivery",
-        "question": "Which of these best describes Continuous Delivery (CD)?",
+        "topic": "Version Control Systems",
+        "question": "Which Git command is used to save changes to the local repository?",
         "options": [
-            "Automating manual testing",
-            "Automating code integration and deployment",
-            "Automatically deploying to production every time",
-            "Testing every part of the application before deployment"
+            "git commit",
+            "git push",
+            "git pull",
+            "git clone"
         ],
-        "answerIndex": 1,
-        "explanation": "Continuous Delivery ensures that code changes are automatically integrated and deployed to testing environments."
+        "answerIndex": 0,
+        "explanation": "The `git commit` command saves changes to the local repository."
     },
     {
         "id": "Q5",
-        "topic": "Infrastructure as Code",
-        "question": "Which tool is commonly used for Infrastructure as Code (IaC)?",
+        "topic": "Plan with DevOps",
+        "question": "Which of the following is a key benefit of using DevOps practices in project planning?",
         "options": [
-            "Terraform",
-            "Jenkins",
-            "Docker",
-            "Ansible"
+            "Faster software delivery",
+            "Better security monitoring",
+            "More manual testing",
+            "Lower hardware costs"
         ],
         "answerIndex": 0,
-        "explanation": "Terraform is widely used for managing infrastructure as code."
+        "explanation": "DevOps enables faster delivery through continuous integration and delivery."
+    },
+    {
+        "id": "Q6",
+        "topic": "Continuous Integration",
+        "question": "What is the primary goal of Continuous Integration (CI)?",
+        "options": [
+            "To frequently deploy code to production",
+            "To frequently integrate code changes into a shared repository",
+            "To reduce the need for testing",
+            "To automatically release software"
+        ],
+        "answerIndex": 1,
+        "explanation": "CI focuses on integrating code frequently to detect errors early."
+    },
+    {
+        "id": "Q7",
+        "topic": "Continuous Integration",
+        "question": "Which of the following is a typical tool used for Continuous Integration?",
+        "options": [
+            "Jenkins",
+            "Terraform",
+            "Docker",
+            "Kubernetes"
+        ],
+        "answerIndex": 0,
+        "explanation": "Jenkins is widely used for automating builds and integrations in CI pipelines."
+    },
+    {
+        "id": "Q8",
+        "topic": "Continuous Delivery",
+        "question": "What does Continuous Delivery (CD) ensure?",
+        "options": [
+            "That code is deployed to production instantly",
+            "That code changes are automatically built, tested, and delivered to production",
+            "That code is only tested and not deployed",
+            "That developers do not need to write any code"
+        ],
+        "answerIndex": 1,
+        "explanation": "CD automates the process of building, testing, and delivering code to production."
+    },
+    {
+        "id": "Q9",
+        "topic": "Continuous Delivery",
+        "question": "Which tool is commonly used for automating Continuous Delivery pipelines?",
+        "options": [
+            "GitHub Actions",
+            "Jenkins",
+            "Docker",
+            "Kubernetes"
+        ],
+        "answerIndex": 1,
+        "explanation": "Jenkins is commonly used for automating Continuous Delivery pipelines."
+    },
+    {
+        "id": "Q10",
+        "topic": "Continuous Deployment",
+        "question": "What is the difference between Continuous Delivery and Continuous Deployment?",
+        "options": [
+            "CD automatically deploys to production; Continuous Delivery requires manual approval",
+            "Continuous Deployment automatically deploys to production; Continuous Delivery does not",
+            "Continuous Delivery and Continuous Deployment are the same",
+            "CD involves testing and Continuous Deployment involves monitoring"
+        ],
+        "answerIndex": 1,
+        "explanation": "Continuous Deployment automates the deployment process, while Continuous Delivery requires approval before deployment."
+    },
+    {
+        "id": "Q11",
+        "topic": "Infrastructure as Code",
+        "question": "What is Infrastructure as Code (IaC)?",
+        "options": [
+            "The process of managing infrastructure using manual processes",
+            "The practice of defining and managing infrastructure using code",
+            "The deployment of infrastructure through GUI-based tools",
+            "The management of serverless infrastructure"
+        ],
+        "answerIndex": 1,
+        "explanation": "IaC allows infrastructure to be defined and managed using code and automation."
+    },
+    {
+        "id": "Q12",
+        "topic": "Infrastructure as Code",
+        "question": "Which tool is widely used for Infrastructure as Code?",
+        "options": [
+            "Terraform",
+            "Docker",
+            "Kubernetes",
+            "Jenkins"
+        ],
+        "answerIndex": 0,
+        "explanation": "Terraform is a popular tool for managing infrastructure as code."
+    },
+    {
+        "id": "Q13",
+        "topic": "Version Control Systems",
+        "question": "What does a `git pull` command do?",
+        "options": [
+            "Downloads changes from the remote repository and merges them into the current branch",
+            "Pushes changes to the remote repository",
+            "Clones a repository from GitHub",
+            "Displays a history of changes"
+        ],
+        "answerIndex": 0,
+        "explanation": "`git pull` fetches changes from the remote repository and merges them into your local branch."
+    },
+    {
+        "id": "Q14",
+        "topic": "DevOps Culture",
+        "question": "Which of the following is a benefit of a strong DevOps culture?",
+        "options": [
+            "More time spent on manual testing",
+            "Improved collaboration between development and operations teams",
+            "Reduced automation in the pipeline",
+            "Less communication between teams"
+        ],
+        "answerIndex": 1,
+        "explanation": "DevOps culture encourages collaboration between teams to improve software delivery."
+    },
+    {
+        "id": "Q15",
+        "topic": "Continuous Delivery",
+        "question": "Which of these is NOT typically automated in a Continuous Delivery pipeline?",
+        "options": [
+            "Code building",
+            "Code testing",
+            "Code deployment to production",
+            "Human interaction during release decision"
+        ],
+        "answerIndex": 3,
+        "explanation": "Continuous Delivery automates the entire pipeline except for human intervention in critical decisions."
+    },
+    {
+        "id": "Q16",
+        "topic": "Version Control Systems",
+        "question": "What is a `merge conflict` in Git?",
+        "options": [
+            "When two branches have the same commit",
+            "When two branches cannot be merged automatically due to conflicting changes",
+            "When a commit is rejected by the remote repository",
+            "When a branch is deleted"
+        ],
+        "answerIndex": 1,
+        "explanation": "A merge conflict occurs when Git cannot automatically merge changes from two branches."
+    },
+    {
+        "id": "Q17",
+        "topic": "Version Control Systems",
+        "question": "What is the purpose of a `git branch`?",
+        "options": [
+            "To track the history of changes",
+            "To create multiple lines of development",
+            "To pull changes from a remote repository",
+            "To delete commits"
+        ],
+        "answerIndex": 1,
+        "explanation": "A branch allows for isolated development of new features or bug fixes."
+    },
+    {
+        "id": "Q18",
+        "topic": "DevOps Culture",
+        "question": "What does 'shift left' mean in DevOps?",
+        "options": [
+            "Move security and testing earlier in the development cycle",
+            "Shift the work to less skilled developers",
+            "Move deployment and monitoring to later stages",
+            "Reduce automation efforts"
+        ],
+        "answerIndex": 0,
+        "explanation": "In DevOps, 'shift left' means moving security and testing earlier in the development cycle to identify issues sooner."
+    },
+    {
+        "id": "Q19",
+        "topic": "Continuous Delivery",
+        "question": "Which stage of Continuous Delivery involves automatically deploying to production?",
+        "options": [
+            "Continuous Integration",
+            "Continuous Deployment",
+            "Continuous Testing",
+            "Continuous Monitoring"
+        ],
+        "answerIndex": 1,
+        "explanation": "Continuous Deployment automatically deploys code changes to production after passing tests."
+    },
+    {
+        "id": "Q20",
+        "topic": "Infrastructure as Code",
+        "question": "Which of the following is a benefit of Infrastructure as Code?",
+        "options": [
+            "Manual configuration of infrastructure",
+            "Increased complexity",
+            "Faster provisioning and consistency",
+            "More time spent on managing infrastructure manually"
+        ],
+        "answerIndex": 2,
+        "explanation": "IaC allows for faster provisioning and consistency in infrastructure management."
     }
 ]
